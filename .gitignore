@@ -1,6 +1,6 @@
 # Ignore virtual environment
 venv/
-.streamlit/
+SNAPCLASS/.streamlit/*
 
 # Ignore Python cache and compiled files
 __pycache__/
