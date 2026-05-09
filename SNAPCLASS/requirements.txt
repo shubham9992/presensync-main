@@ -1,0 +1,30 @@
+streamlit # deploy platfrom, Front End
+# Get-ExecutionPolicy
+# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+# .\venv\Scripts\Activate.ps1
+# pip install -r .\requirements.txt 
+# source venv/bin/activate - for linux 
+# ----------------------------------------------------------------
+# Utilities
+numpy
+pandas
+# Face Recognition
+scikit-learn # for SVM classification & regression
+# dlib
+dlib-bin
+# dlib-20.0.99-cp314-cp314-win_amd64.whl
+git+https://github.com/ageitgey/face_recognition_models
+setuptools
+
+# WARNING: Cache entry deserialization failed, entry ignored
+# Database
+supabase
+bcrypt # hashing
+
+segno # QR Code Generator
+pillow # deal with images, image properties, scaling, transforms
+
+
+librosa # to edit audio files, note it down
+resemblyzer # embedding created for above files
